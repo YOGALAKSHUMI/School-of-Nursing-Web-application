@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Vellore Edu School of Nursing</title>
+  <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- progress barstle -->
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- font wesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+</head>
+
+<style>
+    h1{
+      font-family: 'Quicksand', sans-serif;
+      font-size:50px;
+      text-align:center;
+      color:black;
+      padding:1%;
+      margin-top: 25px;
+    }
+    .h2{
+      font-family: 'Quicksand', sans-serif;
+      font-size:50px;
+      margin: 0 auto;
+      color:black;
+    }
+    #gallery{
+      -webkit-column-count:4;
+      -moz-column-count:4;
+      column-count:4;
+      
+      -webkit-column-gap:20px;
+      -moz-column-gap:20px;
+      column-gap:20px;
+    }
+    @media (max-width:1200px){
+      #gallery{
+      -webkit-column-count:3;
+      -moz-column-count:3;
+      column-count:3;
+        
+      -webkit-column-gap:20px;
+      -moz-column-gap:20px;
+      column-gap:20px;
+    }
+    }
+    @media (max-width:800px){
+      #gallery{
+      -webkit-column-count:2;
+      -moz-column-count:2;
+      column-count:2;
+        
+      -webkit-column-gap:20px;
+      -moz-column-gap:20px;
+      column-gap:20px;
+    }
+    }
+    @media (max-width:600px){
+      #gallery{
+      -webkit-column-count:1;
+      -moz-column-count:1;
+      column-count:1;
+    }  
+    }
+    #gallery img,#gallery video {
+      width:100%;
+      height:auto;
+      margin: 4% auto;
+      box-shadow:-3px 5px 15px #000;
+      cursor: pointer;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    .modal-img,.model-vid{
+      width:100%;
+      height:auto;
+    }
+    .modal-body{
+      padding:0px;
+    }
+  </style>
+
+<body>
+  <div class="top_container sub_pages">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="">
+            <span>
+              Vellore Edu School of <br>Nursing
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <div class="dropdown">
+                    <a class="nav-link" href="./about.html">About</a>
+                    <div class="dropdown-content">
+                    <a href="./students.html">Student</a>
+                    <a href="./hospital.html">Hospital</a>
+                    <a href="./classroom.html">Classroom</a>
+                    <a href="./gallery.html">Gallery</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="staff.html">Staff</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="./course.html">Course</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="application.html">Application</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+          </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!-- end header section -->
+
+  <!--gallery-->
+<h1 > Hospital </h1><hr>
+<h1 style="font-size:30px; margin-top:30px" >Hospital Infrastructure</h1><hr>
+
+<div id="gallery" class="container-fluid">  
+  <img src="./images/hos1.jpg" class="img-responsive"style="height: 300px;">
+  <img src="./images/hos2.jpg" class="img-responsive"  style="height: 270px;">
+   <img src="./images/hos3.jpg" class="img-responsive">
+   <img src="./images/hos4.jpg" class="img-responsive" style="height: 450px;">
+  <video class="vid" controls>
+    <source src="" type="video/mp4">
+  </video>
+  <img src="./images/hos5.jpg" class="img-responsive" style="height: 320px;">
+  <img src="./images/hos6.jpg" class="img-responsive" style="height: 270px;">
+  <img src="./images/hos7.jpg" class="img-responsive" style="height: 338px;">
+  <img src="./images/hos8.jpg" class="img-responsive" style="height: 320px;">
+  <img src="./images/hos9.jpg" class="img-responsive" style="height: 550px;">
+  <img src="./images/hos10.jpg" class="img-responsive" style="height: 400px;">
+
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- End image gallery -->
+
+  
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2023 All Rights Reserved By
+      <a href="./index.html">Vellore Edu School of Nursing</a>
+    </p>
+  </section>   
+  <!-- footer section -->
+
+  <script>
+    $(document).ready(function(){
+      $("img").click(function(){
+      var t = $(this).attr("src");
+      $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+      $("#myModal").modal();
+    });
+    
+    $("video").click(function(){
+      var v = $("video > source");
+      var t = v.attr("src");
+      $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+      $("#myModal").modal();  
+    });
+    });//EOF Document.ready
+  </script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- progreesbar script -->
+
+
+</body>
+
+</html>
